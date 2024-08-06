@@ -1,56 +1,45 @@
-<h2>Digital Innovation: Expert class - Desenvolvimento de testes unitários para validar uma API REST de gerenciamento de estoques de cerveja.</h2>
+🌟 Inovação Digital: Aula Especial - Dominando Testes Unitários para uma API REST de Gerenciamento de Estoques de Cerveja 🍻
 
-Nesta live coding, vamos aprender a testar, unitariamente, uma API REST para o gerenciamento de estoques de cerveja. Vamos desenvolver testes unitários para validar o nosso sistema de gerenciamento de estoques de cerveja, e também apresentar os principais conceitos e vantagens de criar testes unitários com JUnit e Mockito. Além disso, vamos também mostrar como desenvolver funcionalidades da nossa API através da prática do TDD.
+Prepare-se para uma jornada emocionante no mundo dos testes unitários! Nesta live coding, vamos explorar como testar uma API REST dedicada ao gerenciamento de estoques de cerveja. Vamos mergulhar no desenvolvimento de testes unitários para garantir que nossa API funcione como um charme e mostrar os conceitos e benefícios de usar JUnit e Mockito. Além disso, vamos aplicar a prática do TDD para aprimorar nossas funcionalidades!
 
-Durante a sessão, serão abordados os seguintes tópicos:
+Durante nossa sessão, vamos cobrir:
 
-* Baixar um projeto através do Git para desenolver nossos testes unitários. 
-* Apresentação conceitual sobre testes: a pirâmide dos tipos de testes, e também a importância de cada tipo de teste durante o ciclo de desenvolvimento.
-* Foco nos testes unitários: mostrar o porque é importante o desenvolvimento destes tipos de testes como parte do ciclo de desenvolvimento de software.
-* Principais frameworks para testes unitários em Java: JUnit, Mockito e Hamcrest. 
-* Desenvolvimento de testes unitários para validação de funcionalides básicas: criação, listagem, consulta por nome e exclusão de cervejas.
-* TDD: apresentação e exemplo prático em 2 funcionaliades importantes: incremento e decremento do número de cervejas no estoque.
+Clonagem do Projeto: Aprenda a baixar um projeto via Git e comece a desenvolver seus testes unitários.
+Conceitos de Testes: Explore a pirâmide dos tipos de testes e a importância de cada um no ciclo de desenvolvimento.
+Foco em Testes Unitários: Entenda por que os testes unitários são cruciais para um desenvolvimento de software eficiente.
+Frameworks de Testes em Java: Conheça JUnit, Mockito e Hamcrest, os principais frameworks para testes unitários.
+Testes de Funcionalidades Básicas: Crie e valide funções essenciais como criação, listagem, pesquisa por nome e exclusão de cervejas.
+TDD na Prática: Veja como o Test-Driven Development pode ser aplicado a funcionalidades importantes, como o ajuste do número de cervejas em estoque.
+Como Executar o Projeto:
 
-Para executar o projeto no terminal, digite o seguinte comando:
-
-```shell script
-mvn spring-boot:run 
-```
-
-Para executar a suíte de testes desenvolvida durante a live coding, basta executar o seguinte comando:
-
-```shell script
+Para rodar o projeto, use o comando:
+bash
+Copiar código
+mvn spring-boot:run
+Para rodar os testes desenvolvidos, execute:
+bash
+Copiar código
 mvn clean test
-```
-
-Após executar o comando acima, basta apenas abrir o seguinte endereço e visualizar a execução do projeto:
-
-```
+Após isso, você pode visualizar o projeto acessando:
 http://localhost:8080/api/v1/beers
-```
 
-São necessários os seguintes pré-requisitos para a execução do projeto desenvolvido durante a aula:
+Pré-requisitos:
 
-* Java 14 ou versões superiores.
-* Maven 3.6.3 ou versões superiores.
-* Intellj IDEA Community Edition ou sua IDE favorita.
-* Controle de versão GIT instalado na sua máquina.
-* Muita vontade de aprender e compartilhar conhecimento :)
+Java 14 ou superior
+Maven 3.6.3 ou superior
+IntelliJ IDEA Community Edition ou sua IDE preferida
+Git instalado na sua máquina
+Muita disposição para aprender e compartilhar conhecimento! 😊
+Links Úteis:
 
-Abaixo, seguem links bem bacanas, sobre tópicos mencionados durante a aula:
-
-* [SDKMan! para gerenciamento e instalação do Java e Maven](https://sdkman.io/)
-* [Referência do Intellij IDEA Community, para download](https://www.jetbrains.com/idea/download)
-* [Palheta de atalhos de comandos do Intellij](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf)
-* [Site oficial do Spring](https://spring.io/)
-* [Site oficial JUnit 5](https://junit.org/junit5/docs/current/user-guide/)
-* [Site oficial Mockito](https://site.mockito.org/)
-* [Site oficial Hamcrest](http://hamcrest.org/JavaHamcrest/)
-* [Referências - testes em geral com o Spring Boot](https://www.baeldung.com/spring-boot-testing)
-* [Referência para o padrão arquitetural REST](https://restfulapi.net/)
-* [Referência pirâmide de testes - Martin Fowler](https://martinfowler.com/articles/practical-test-pyramid.html#TheImportanceOftestAutomation)
-
-[Neste link](https://drive.google.com/file/d/1KPh19mvyKirorOI-UsEYHKkmZpet3Ks6/view?usp=sharing), seguem os slides apresentados como o roteiro utilizado para o desenvolvimento do projeto da nossa sessão.
-
-
-
+SDKMan! para gerenciar e instalar Java e Maven
+IntelliJ IDEA Community Edition para download
+Palheta de atalhos do IntelliJ
+Spring
+JUnit 5
+Mockito
+Hamcrest
+Referências sobre testes com Spring Boot
+Padrão Arquitetural REST
+Pirâmide de Testes por Martin Fowler
+Confira também os slides com o roteiro utilizado na nossa sessão!
